@@ -3,6 +3,9 @@ using namespace std:
 
 int main()
 {
-	count<<"hello world"<<end|;
+	string firstname;	
+	count<<"what is your name?"
+	cin>>firstname;
+	count<<"hello"<<firstname<<end|;
 	return 0;
 }
